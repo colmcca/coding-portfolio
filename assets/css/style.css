@@ -1,0 +1,39 @@
+header {
+    font-family: fantasy;
+    background-color: cornflowerblue;
+    padding: 25px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 40px;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#nav-links {
+    list-style-type: none;
+}
+
+.nav-items {
+display: inline-block;
+padding: 10px;
+text-decoration: underline;
+border-bottom: 5px;
+color: black;
+}
+
+.nav-hover-links:hover {
+background-color: rgb(180, 57, 57);
+box-shadow: 5 px;
+transition: background-color 1s;
+}
+
+a:visited {
+color: rgb(57, 57, 158);
+}
