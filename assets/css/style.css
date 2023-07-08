@@ -1,13 +1,14 @@
 header {
     font-family: fantasy;
-    background-color: cornflowerblue;
+    background-color: rgb(127, 135, 148);
     padding: 25px;
 }
 
 h1 {
     text-align: left;
-    font-size: 40px;
+    font-size: 50px;
     display: inline-block;
+    background-color: rgb(54, 196, 196);
 }
 
 nav {
@@ -36,4 +37,14 @@ transition: background-color 1s;
 
 a:visited {
 color: rgb(57, 57, 158);
+}
+
+#background-image {
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+
+.titles {
+    font-size: 40px;
 }
