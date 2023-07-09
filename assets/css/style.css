@@ -45,6 +45,22 @@ color: rgb(57, 57, 158);
     background-color: blue;
 }
 
+#about-me {
+display: flex;
+}
+
 .titles {
+    border-right: 5px solid green;
+    height: 500px;
     font-size: 40px;
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.section-descriptions {
+    padding: 20px;
+    text-align: right;
+    width: 75%;
+    margin-left: 10%;
+    font-family: fantasy;
 }
