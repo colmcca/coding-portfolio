@@ -49,19 +49,57 @@ color: rgb(57, 57, 158);
 display: flex;
 }
 
-.titles {
+#about-me {
     border-right: 5px solid green;
     height: 400px;
     width: 12%;
     font-size: 40px;
-    padding: 15px;
     margin-left: 15%;
+    padding-right: 113px;
 }
 
 .section-descriptions {
     padding: 20px;
-    text-align: center;
-    width: 75%;
-    margin-left: 10%;
+    text-align: left;
     font-family: fantasy;
+    text-align-last: left;
+    margin-left: 5%;
 }
+
+#profile-picture {
+height: fit-content;
+width: 20%;
+border-radius: 20%;
+}
+
+#work {
+    border-right: 5px solid green;
+    height: 400px;
+    width: 12%;
+    font-size: 40px;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+#contact-me {
+    border-right: 5px solid green;
+    height: 80px;
+    width: 12%;
+    font-size: 40px;
+    margin-left: 15%;
+    padding: 20px;
+    margin-bottom: -5%;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+.contact-me-links {
+    display: inline-block;
+    text-decoration: underline;
+    border-bottom: 5px;
+    color: black;
+    padding: 10px;
+    font-size: large;
+    }
