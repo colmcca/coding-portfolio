@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     font-family: fantasy;
     background-color: rgb(127, 135, 148);
@@ -9,6 +13,8 @@ h1 {
     font-size: 50px;
     display: inline-block;
     background-color: rgb(54, 196, 196);
+    border-inline-start: 5px groove rgb(54, 196, 196);
+    border-inline-start-width: 20px;
 }
 
 nav {
@@ -43,13 +49,19 @@ color: rgb(57, 57, 158);
     height: 200px;
     width: 100%;
     background-color: blue;
-}
-
-.sections {
-display: flex;
+    opacity: 95%;
 }
 
 #about-me {
+    display: flex;
+}
+
+#work {
+    display: flex;
+}
+
+
+#about-me-title {
     border-right: 5px solid green;
     height: 400px;
     width: 12%;
@@ -72,16 +84,43 @@ width: 20%;
 border-radius: 20%;
 }
 
-#work {
+#work-title {
     border-right: 5px solid green;
-    height: 400px;
+    height: 1000px;
     width: 12%;
     font-size: 40px;
     margin-left: 15%;
     padding: 20px;
 }
 
-#contact-me {
+#main-project-image {
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 400px;
+    width: auto;
+    border: solid 10px gray;
+    padding: 5px;
+}
+
+#sunset-image {
+    height: 200px;
+    margin-top: 40%;
+    margin-left: 1%;
+    width: auto;
+    border: solid 10px gray;
+    padding: 5px;
+}
+
+#flower-image {
+    height: 200px;
+    margin-top: 40%;
+    margin-left: -45%;
+    width: auto;
+    padding: 5px;
+    border: solid 10px gray;
+}
+
+#contact-me-title {
     border-right: 5px solid green;
     height: 80px;
     width: 12%;
